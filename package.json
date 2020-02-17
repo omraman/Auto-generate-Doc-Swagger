@@ -1,0 +1,26 @@
+{
+  "name": "auto-generate-doc-swagger",
+  "version": "1.0.0",
+  "description": "Auto-generate Doc using Swagger, Node JS, Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omraman/Auto-generate-Doc-Swagger.git"
+  },
+  "author": "Om Raman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omraman/Auto-generate-Doc-Swagger/issues"
+  },
+  "homepage": "https://github.com/omraman/Auto-generate-Doc-Swagger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "swagger-jsdoc": "^3.5.0",
+    "swagger-ui-express": "^4.1.3"
+  }
+}
